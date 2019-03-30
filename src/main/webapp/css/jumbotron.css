@@ -1,0 +1,81 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+    
+}
+.navbar-inverse {
+	background: #243238;
+}
+.about_right {
+    width: 40%;
+    margin-bottom: 40px;
+    margin-top: 60px;
+}
+.navbar-brand.logo {
+    background-image: url("../images/logo.png");
+    width: 91px;
+    height: 60px;
+    background-size: contain;
+    padding: 0;
+    background-repeat: no-repeat;
+}
+.navbar-form {
+	margin-top: 13px;
+}
+.tm_pb_with_background {
+	padding: 50px 0;
+	background-image: url(https://ld-wp.template-help.com/wordpress_63940/wp-content/uploads/2016/11/bg_pic4.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+/*	background-size: 100%;
+*/	background-size: cover;
+}
+.abt_content {
+	color: #fff;
+}
+.btn-success, .btn-default {
+    color: #ffffff;
+    background-color: #ff3cbc;
+    border-color: #ff3cbc;
+    background-image: none;
+}
+.btn-success:hover, .btn-default:hover {
+    color: #ffffff;
+    background-color: #ff71ce;
+    border-color: #ff71ce;
+}
+section {
+	position: relative;
+	float: left;
+	width: 100%;
+	padding-top: 62px;
+}
+.overlay-bg {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+    background-image: url("../images/banner.jpg");
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    background-position: center;
+    z-index: 0;
+}
+.sec_text {
+	position: relative;
+	padding: 170px 0;
+	color: #fff;
+}
+.sec_text p {
+	font-size: 18px;
+}
+
+footer {
+	background-color: #000;
+}
+footer p {
+	margin: 10px 0;
+	color: #fff;
+	text-align: center;
+}
